@@ -230,13 +230,13 @@ header h2 {
 CONTANT        
 ===========================================================================================================*/
 
-.grupcards__section,
+/* .grupcards__section,
 .infor__section,
 .form__section {
   position: absolute;
   margin: 0 auto;
   top: 50px;
-}
+} */
 
 /*--------------------------- Section1-Introduçao ----------------------- */
 
@@ -369,9 +369,11 @@ CONTANT
   text-align: center;
   gap: 25px;
   border-radius: 10px;
+  border: 1px solid var(--secondary);
   &:hover {
     background-color: var(--dark-hover) !important;
     transform: translateY(-10px);
+    border: 3px solid var(--color-secondary) !important;
   }
 }
 
